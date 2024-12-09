@@ -10,14 +10,13 @@ import {
   createBrowserRouter,
   createRoutesFromElements,
 } from "react-router-dom";
-import { Overview, Appointments } from "./components/index.js";
-import Patients1 from "./components/patients/patients1.jsx";
+import { Overview, Appointments, Patients } from "./components/index.js";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<App />}>
       <Route path="/" element={<Overview />} />
-      <Route path="/patients" element={<Patients1 />} />
+      <Route path="/patients" element={<Patients />} />
       <Route path="/appointments" element={<Appointments />} />
     </Route>
   )

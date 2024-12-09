@@ -13,7 +13,6 @@ export function PatientList() {
 
   useEffect(() => {
     if (pData === null) dispatch(fetchData());
-    console.log(pData)
   }, [dispatch, pData]);
 
   const handleChange = (data, index) => {

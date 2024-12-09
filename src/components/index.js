@@ -20,15 +20,13 @@ import {
   TableHeader,
   TableRow,
 } from "./ui/Table";
-import {PatientHistory} from './patients/PatientHistory'
+import { PatientHistory } from "./patients/PatientHistory";
 import { PatientInfo } from "./patients/PatientInfo";
 import { PatientList } from "./patients/PatientList";
 import { BloodPressureGraph } from "./patients/Graph";
-import Patients from './patients/Patients'
-import Overview from '../components/Overview'
+import Patients from "./patients/Patients";
+import Overview from "../components/Overview";
 import Appointments from "./Appointments";
-import Message from "./Message";
-import Transactions from "./Transactions";
 
 export {
   Input,
@@ -55,7 +53,5 @@ export {
   BloodPressureGraph,
   Overview,
   Appointments,
-  Message,
-  Transactions,
-  Patients
+  Patients,
 };
